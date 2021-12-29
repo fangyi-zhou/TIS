@@ -1,0 +1,53 @@
+@0
+
+
+@1
+
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+
+
+@9
+1:
+MOV -1 DOWN
+SWP
+MOV 0 DOWN
+MOV ACC DOWN
+ADD 1
+SWP
+SUB 30
+2:
+MOV RIGHT DOWN
+ADD 1
+JEZ 1
+JMP 2
+
+@10
+ADD 15
+1:MOV 3 LEFT
+MOV 0 LEFT
+SUB 1
+JNZ 1
+ADD 15
+2:MOV 0 LEFT
+MOV 3 LEFT
+SUB 1
+JNZ 2

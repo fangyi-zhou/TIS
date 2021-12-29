@@ -1,2 +1,8 @@
 (library
  (name tis))
+
+(ocamllex
+ (modules lexer))
+
+(menhir
+ (modules parser))
